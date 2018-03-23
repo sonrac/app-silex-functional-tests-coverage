@@ -1,3 +1,4 @@
 /vendor/
 resources/db.sqlite
 coverage
+.env
