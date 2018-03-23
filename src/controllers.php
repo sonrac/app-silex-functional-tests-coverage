@@ -9,7 +9,7 @@ $app->match('/', function (Request $request, \Silex\Application $app) {
     return $app->json([
         'version' => 'v1',
         'baseUrl' => $request->getHost().'/api/v1',
-        'status'  => 'OK'
+        'status'  => 'OK',
     ]);
 })->bind('homepage');
 
@@ -29,7 +29,7 @@ if (!$app->get('dispatcher')) {
         if ($e instanceof \Symfony\Component\Routing\Exception\RouteNotFoundException) {
             return $app->json([
                 'status'  => 'ERROR',
-                'message' => 'Page not found'
+                'message' => 'Page not found',
             ])->setStatusCode(404);
         }
 

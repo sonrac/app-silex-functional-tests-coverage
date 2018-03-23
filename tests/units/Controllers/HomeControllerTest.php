@@ -8,7 +8,7 @@ namespace Tests\Units\Controllers;
 use Tests\ControllersTraits\HomeController;
 
 /**
- * Class HomeControllerTest
+ * Class HomeControllerTest.
  *
  * @author Donii Sergii <doniysa@gmail.com>
  */

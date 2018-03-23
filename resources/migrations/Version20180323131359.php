@@ -1,4 +1,6 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types=1);
 
 namespace Migrations;
 
@@ -20,7 +22,6 @@ class Version20180323131359 extends AbstractMigration
             ->setLength(255);
         $table->addColumn('password', Type::STRING)
             ->setLength(2000);
-
     }
 
     public function down(Schema $schema)

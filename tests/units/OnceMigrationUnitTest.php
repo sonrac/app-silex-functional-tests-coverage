@@ -6,11 +6,10 @@
 namespace Tests\Units;
 
 use PHPUnit\Framework\TestCase;
-use Tests\MigrationsTrait;
 use Tests\OnceRunMigration;
 
 /**
- * Class OnceMigrationUnitTest
+ * Class OnceMigrationUnitTest.
  *
  * @author Donii Sergii <doniysa@gmail.com>
  */

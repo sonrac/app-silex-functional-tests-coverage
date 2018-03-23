@@ -48,7 +48,7 @@ abstract class BaseWebTest extends WebTestCase
     {
         parent::setUp();
 
-        $this->client   = null;
+        $this->client = null;
         $this->response = null;
 
         $this->_boot();
@@ -77,7 +77,7 @@ abstract class BaseWebTest extends WebTestCase
         $content = null,
         $changeHistory = true
     ) {
-        $this->client  = $this->client ?: $this->createClient();
+        $this->client = $this->client ?: $this->createClient();
         $this->crawler = $this->client->request($method, $uri);
 
         $this->response = $this->client->getResponse();
