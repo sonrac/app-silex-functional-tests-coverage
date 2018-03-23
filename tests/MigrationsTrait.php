@@ -2,11 +2,6 @@
 
 namespace Tests;
 
-use Doctrine\DBAL\Migrations\Tools\Console\Command\MigrateCommand;
-use Silex\Application;
-use Symfony\Component\Console\Input\ArrayInput;
-use Symfony\Component\Console\Input\InputArgument;
-
 /**
  * Trait MigrationsTrait
  * Migrations trait.
@@ -46,9 +41,9 @@ trait MigrationsTrait
         exec($command, $out, $code);
         ob_end_clean();
 
-        if ((int)$code !== 0) {
+        if ((int) $code !== 0) {
             throw new \Exception(
-                "Command \n {$command} \n run with code {$code} with out: \n " .
+                "Command \n {$command} \n run with code {$code} with out: \n ".
                 implode(PHP_EOL, $out)
             );
         }
@@ -62,7 +57,7 @@ trait MigrationsTrait
     public function _down()
     {
         /**
-         * @var \Doctrine\DBAL\Query\QueryBuilder $builder
+         * @var \Doctrine\DBAL\Query\QueryBuilder
          */
         $builder = $this->app['db']->createQueryBuilder();
 

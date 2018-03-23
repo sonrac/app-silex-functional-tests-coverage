@@ -20,7 +20,7 @@ use Tests\ControllersTestTrait;
 use Tests\Units\OnceMigrationUnitTest;
 
 /**
- * Class BaseControllerTest
+ * Class BaseControllerTest.
  *
  * @author Donii Sergii <doniysa@gmail.com>
  */
@@ -109,7 +109,7 @@ abstract class BaseControllerTest extends OnceMigrationUnitTest
             'files'         => $files,
             'parameters'    => $parameters,
             'method'        => $method,
-            'body'          => $body ?: ''
+            'body'          => $body ?: '',
         ]);
 
         // Get controller
@@ -122,7 +122,7 @@ abstract class BaseControllerTest extends OnceMigrationUnitTest
         }
 
         $this->request->attributes->add([
-            '_controller' => $controller
+            '_controller' => $controller,
         ]);
 
         $this->response = $this->getResponse($controller);
@@ -276,7 +276,7 @@ abstract class BaseControllerTest extends OnceMigrationUnitTest
             }
         }
 
-        /** @var \Closure $closure */
+        /* @var \Closure $closure */
         return $route->getDefault('_controller');
     }
 
@@ -300,7 +300,7 @@ abstract class BaseControllerTest extends OnceMigrationUnitTest
     }
 
     /**
-     * Trigger kernel event
+     * Trigger kernel event.
      *
      * @param string                                   $eventName Event name
      * @param \Symfony\Component\EventDispatcher\Event $class     Event class
@@ -320,21 +320,23 @@ abstract class BaseControllerTest extends OnceMigrationUnitTest
 
         /* Emulate request event for prepare middleware & other providers initialization */
         ob_start();
+
         try {
             $dispatcher->dispatch($eventName, $class);
         } catch (HttpException $httpException) { // If http exception, return response with error
             ob_end_clean();
+
             return $this->returnResponseFromHttpException($httpException);
         } catch (\Exception $exception) {
             ob_end_clean();
+
             throw $exception;
         } catch (\Throwable $throwable) {
             ob_end_clean();
+
             throw $throwable;
         }
         ob_end_clean();
-
-        return null;
     }
 
     /**
@@ -379,6 +381,7 @@ abstract class BaseControllerTest extends OnceMigrationUnitTest
         foreach ($ret as &$match) {
             $match = $match === strtoupper($match) ? strtolower($match) : lcfirst($match);
         }
+
         return implode('_', $ret);
     }
 }

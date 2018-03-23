@@ -8,7 +8,7 @@ namespace Tests;
 use Silex\Application;
 
 /**
- * Class OnceRunMigration
+ * Class OnceRunMigration.
  *
  * @author Donii Sergii <doniysa@gmail.com>
  */

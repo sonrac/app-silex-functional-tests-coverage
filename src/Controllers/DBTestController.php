@@ -9,7 +9,7 @@ use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
- * Class DBTestController
+ * Class DBTestController.
  *
  * @author Donii Sergii <doniysa@gmail.com>
  */
@@ -27,7 +27,6 @@ class DBTestController
      */
     public function all(Application $application, Request $request, $limit = 0, $offset = 0)
     {
-
     }
 
     /**
@@ -40,7 +39,8 @@ class DBTestController
      * @author Donii Sergii <doniysa@gmail.com>
      */
     public function view(Application $application, Request $request, $id)
-    {}
+    {
+    }
 
     /**
      * Delete entity.
@@ -51,8 +51,8 @@ class DBTestController
      *
      * @author Donii Sergii <doniysa@gmail.com>
      */
-    public function deleteEntity(Application $application, Request $request, $id) {
-
+    public function deleteEntity(Application $application, Request $request, $id)
+    {
     }
 
     /**
@@ -63,8 +63,8 @@ class DBTestController
      *
      * @author Donii Sergii <doniysa@gmail.com>
      */
-    public function createEntity(Application $application, Request $request) {
-
+    public function createEntity(Application $application, Request $request)
+    {
     }
 
     /**
@@ -76,7 +76,7 @@ class DBTestController
      *
      * @author Donii Sergii <doniysa@gmail.com>
      */
-    public function updateEntity(Application $application, Request $request, $id) {
-
+    public function updateEntity(Application $application, Request $request, $id)
+    {
     }
 }

@@ -8,7 +8,7 @@ namespace Tests\Functional;
 use Tests\ControllersTraits\HealthController;
 
 /**
- * Class HealthTest
+ * Class HealthTest.
  *
  * @author Donii Sergii <s.donii@infomir.com>
  */

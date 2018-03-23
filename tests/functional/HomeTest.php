@@ -5,7 +5,7 @@ namespace Tests\Functional;
 use Tests\ControllersTraits\HomeController;
 
 /**
- * Class HomeTest
+ * Class HomeTest.
  *
  * @author Donii Sergii <doniysa@gmail.com>
  */
