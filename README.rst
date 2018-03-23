@@ -1,14 +1,14 @@
-[![Build Status](https://travis-ci.org/sonrac/functional-traits-for-coverage.svg?branch=master)](https://travis-ci.org/sonrac/functional-traits-for-coverage)
+[![Build Status](https://travis-ci.org/sonrac/app-silex-functional-tests-coverage.svg?branch=master)](https://travis-ci.org/sonrac/app-silex-functional-tests-coverage)
 [![StyleCI](https://styleci.io/repos/105322873/shield?branch=master&style=flat)](https://styleci.io/repos/105322873)
 
-![Scrutinizer Build](https://scrutinizer-ci.com/g/sonrac/functional-traits-for-coverage/badges/build.png?b=master)
-![Scrutinizer](https://scrutinizer-ci.com/g/sonrac/functional-traits-for-coverage/badges/quality-score.png?b=master)
-![Scrutinizer Code Coverage](https://scrutinizer-ci.com/g/sonrac/functional-traits-for-coverage/badges/coverage.png?b=master)
-[![codecov](https://codecov.io/gh/sonrac/functional-traits-for-coverage/branch/master/graph/badge.svg)](https://codecov.io/gh/sonrac/functional-traits-for-coverage)
-![Packagist](https://poser.pugx.org/sonrac/functional-traits-for-coverage/v/stable.svg)
-[![Latest Unstable Version](https://poser.pugx.org/sonrac/functional-traits-for-coverage/v/unstable)](https://packagist.org/packages/sonrac/functional-traits-for-coverage)
-![License](https://poser.pugx.org/sonrac/functional-traits-for-coverage/license.svg)
-[![composer.lock](https://poser.pugx.org/sonrac/functional-traits-for-coverage/composerlock)](https://packagist.org/packages/sonrac/functional-traits-for-coverage)
+![Scrutinizer Build](https://scrutinizer-ci.com/g/sonrac/app-silex-functional-tests-coverage/badges/build.png?b=master)
+![Scrutinizer](https://scrutinizer-ci.com/g/sonrac/app-silex-functional-tests-coverage/badges/quality-score.png?b=master)
+![Scrutinizer Code Coverage](https://scrutinizer-ci.com/g/sonrac/app-silex-functional-tests-coverage/badges/coverage.png?b=master)
+[![codecov](https://codecov.io/gh/sonrac/app-silex-functional-tests-coverage/branch/master/graph/badge.svg)](https://codecov.io/gh/sonrac/app-silex-functional-tests-coverage)
+![Packagist](https://poser.pugx.org/sonrac/app-silex-functional-tests-coverage/v/stable.svg)
+[![Latest Unstable Version](https://poser.pugx.org/sonrac/app-silex-functional-tests-coverage/v/unstable)](https://packagist.org/packages/sonrac/app-silex-functional-tests-coverage)
+![License](https://poser.pugx.org/sonrac/app-silex-functional-tests-coverage/license.svg)
+[![composer.lock](https://poser.pugx.org/sonrac/app-silex-functional-tests-coverage/composerlock)](https://packagist.org/packages/sonrac/app-silex-functional-tests-coverage)
 
 Silex Skeleton
 ==============
